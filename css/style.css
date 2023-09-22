@@ -1,13 +1,21 @@
 body{
     background-color: #000;
+    background-image: url(../img/gifPersonalLogo.gif);
+    background-size: 50px;
 }
+
+a{
+    color: #fff;
+}
+
 nav{
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     height: 100%;
-    width: 25%;
+    width: 15%;
+    min-width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -34,13 +42,18 @@ nav a:hover{
     
 }
 
+.twitter-tweet{
+    margin-right: 15px;
+}
+
 .main{
-    margin-left: 30%;
+    margin-left: 15%;
     padding: 0 10px;
 }
 
 .container{
-    margin-left: 30%;
+    margin-left: 16%;
+    margin-right: 5%;
     padding: 0 10px;
     columns: 4;
     column-gap: 15px;
@@ -71,6 +84,12 @@ nav a:hover{
 
 }
 
+.container-2{
+    margin-left: 16%;
+    margin-right: 80px;
+    display: flex;
+}
+
 p{
     color: white;
 }
@@ -84,11 +103,25 @@ h2{
     color: #1635e4;
 }
 
+h3{
+    color: #000;
+    background-color: rgb(255, 217, 0);
+    width: fit-content;
+    padding: 5px;
+}
+
 .gif{
     width: 100%;
     margin: 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #1635e4;
 }
 
 .landing-menu a{
@@ -96,6 +129,8 @@ h2{
     font-size: 72px;
     text-decoration: none;
     color: #fff;
+    background-color: #000;
+    width: fit-content;
 
 }
 
@@ -123,9 +158,45 @@ h2{
     font-weight: bold;
 }
 
-#oopsie{
+.activity-subheader{
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    font-size: 24pt;
+    font-weight: bold;
+    height: max-content;
+    width: max-content;
+    margin: 10px 10px 20px 15%;
+    padding: 10px;
+}
+
+.activity-caption{
+    margin-left: 16%;
+    height: 100%;
+}
+
+.activity-paragraph{
+    display: inline-block;
+    background-color: #000;
+    max-width: 475px;
+    padding: 10px;
+    margin-right: 9px;
+
+}
+
+.oopsie{
     color: #000;
     background-color: rgb(172, 255, 47);
+}
+
+.game{
+    background-color: #fff;
+}
+
+.game-return{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
 }
 
 #introduction-menu a:hover{
@@ -133,7 +204,7 @@ h2{
 }
 
 #likes-menu a:hover{
-    color: rgb(245, 212, 24);
+    color: rgb(255, 217, 0);
 }
 
 #activity-menu a:hover{
@@ -145,9 +216,13 @@ h2{
 }
 
 #likes-gif{
-    background-color: rgb(245, 212, 24);
+    background-color: rgb(255, 217, 0);
 }
 
 #activity-gif{
     background-color: rgb(149, 36, 194);
+}
+
+#twitter-tweet{
+    margin-right: 15px;
 }
