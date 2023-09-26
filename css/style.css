@@ -199,6 +199,38 @@ h2 a{
     padding: 10px;
 }
 
+.contact{
+    width: auto;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.contact-img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.introduction-img{
+    margin-left: 35%;
+    margin-top: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.introduction-a{
+    background-color: aqua;
+    width: 200px;
+    display: absolute;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 #introduction-menu a:hover{
     color: rgb(226, 38, 38);
 }
@@ -209,6 +241,11 @@ h2 a{
 
 #activity-menu a:hover{
     color: rgb(149, 36, 194);
+}
+
+#contact-menu a:hover{
+    color: rgb(255, 0, 200);
+
 }
 
 #introduction-gif{
@@ -223,6 +260,32 @@ h2 a{
     background-color: rgb(149, 36, 194);
 }
 
+#contact-gif{
+    background-color: rgb(255, 0, 200);
+    position: fixed;
+    top: 0;
+}
+
 #twitter-tweet{
     margin-right: 15px;
+}
+
+#img-contact{
+    width: 55%;
+    height: auto;
+    z-index: -1;
+}
+
+#contact-options{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+#contact-paragraph{
+    margin-left: 15px;
+}
+
+#contact-menu2{
+    margin-top: 175px;
+    margin-left: 15%;
 }
