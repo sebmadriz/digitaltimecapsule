@@ -220,15 +220,44 @@ h2 a{
     z-index: 2;
 }
 
-.introduction-a{
-    background-color: aqua;
-    width: 200px;
-    display: absolute;
-    flex-direction: row;
+.introduction-p{
+    background-color: rgba(0, 0, 0, 0.75);
 
+    width: 250px;
+    display: flex;
+    align-items: center;
     justify-content: center;
     align-items: center;
-    position: relative;
+    padding: 20px 20px 2px 20px;
+}
+
+#introduction-a{
+    margin-top: 90px;
+    margin-left: 137px;
+}
+
+#introduction-b{
+    padding-top: 30px;
+    margin-left: 120px;
+    margin-top: -60px;
+}
+
+#introduction-c{
+    padding-top: 5px;
+    margin-left: 125px;
+    margin-top: 60px;
+}
+
+#introduction-d{
+    padding-top: 10px;
+    margin-left: 650px;
+    margin-top: -600px;
+}
+
+#introduction-e{
+    padding-top: 5px;
+    margin-left: 860px;
+    margin-top: 85px;
 }
 
 #introduction-menu a:hover{
@@ -246,6 +275,15 @@ h2 a{
 #contact-menu a:hover{
     color: rgb(255, 0, 200);
 
+}
+
+#contact-menu2 a:hover{
+    color: rgb(255, 0, 200);
+}
+
+#contact-menu2{
+    margin-top: 175px;
+    margin-left: 15%;
 }
 
 #introduction-gif{
@@ -278,14 +316,5 @@ h2 a{
 
 #contact-options{
     margin-top: 2%;
-    margin-left: 15%;
-}
-
-#contact-paragraph{
-    margin-left: 15px;
-}
-
-#contact-menu2{
-    margin-top: 175px;
-    margin-left: 15%;
+    margin-left: 0;
 }
